@@ -1,0 +1,235 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/*CSS Variables*/
+:root {
+    --navbar-height: 100px;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f6f6;
+    color: #0b0a0a;
+
+}
+
+header {
+    background-color: skyblue;
+    color: rgb(9, 7, 7);
+    text-align: center;
+    padding: 0.6rem 0;
+    position: sticky;
+
+}
+
+#navbar {
+    display: block;
+    align-items: center;
+    position: sticky;
+
+}
+
+.label {
+    color: rgb(6, 6, 6);
+    padding: 6px;
+}
+
+.hello {
+    background-color: #aed94b;
+}
+
+
+#navbar h1 {
+    color: rgb(9, 9, 9);
+    font-family: 'Rowdies', cursive;
+    text-align: center;
+
+}
+
+#navbar ul {
+    display: flex;
+    font-family: 'Rowdies', cursive;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+
+}
+
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.3rem;
+    text-align: center;
+    align-items: center;
+}
+
+#navbar ul li a {
+    color: rgb(21, 20, 20);
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration-line: underline;
+}
+
+#navbar ul li a:hover {
+    color: black;
+    background-color: white;
+    text-align: center;
+}
+
+.intro-section {
+    height: 500px;
+    background-color: #2d2a2a;
+    color: rgb(16, 15, 15);
+    padding: 2.5rem 0;
+    text-align: center;
+}
+
+.profile-picture {
+    float: left;
+    margin: 2% 5%;
+}
+
+.intro-text {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Rowdies', cursive;
+}
+
+.skills-section {
+    background-color: #292b2b;
+    color: rgb(248, 243, 243);
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+}
+
+.skills-list ul {
+    justify-content: center;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+
+}
+
+.skill-icon {
+    margin-right: 10px;
+}
+
+#skills h1 {
+    color: white;
+    font-family: 'Rowdies', cursive;
+
+}
+
+.education-section {
+    padding: 3rem 0;
+    text-align: center;
+    background-color: #0b0a0a;
+}
+
+.education-text {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Rowdies', cursive;
+}
+
+.education-section h3 {
+    color: rgb(228, 238, 86);
+    text-decoration-line: underline;
+    text-align: center;
+}
+
+.contact-section {
+    flex-direction: column;
+    background-color: #21252e;
+    position: relative;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.about-section {
+    padding: 4rem 0;
+    text-align: center;
+    background-color: #323d48;
+    color: white;
+}
+
+.contact-box {
+    background-color: #212325;
+    color: white;
+    gap: 70px;
+    text-align: center;
+
+}
+
+.about-text {
+    margin: 1%;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+footer {
+    float: inline-end;
+    background-color: #0a0a0a;
+    color: rgb(254, 252, 252);
+    text-align: center;
+    padding: 2rem 0;
+
+}
+
+.h-primary {
+    font-size: 3rem;
+    font-family: 'Rowdies', cursive;
+    color: white;
+    border-bottom: 4px double rgba(226, 168, 61, 0.35);
+    padding-bottom: 0.4rem;
+    margin-bottom: 1em;
+}
+
+.h-secondary {
+    font-size: 2rem;
+    font-family: 'Rowdies', cursive;
+    border-bottom: 4px double rgba(226, 168, 61, 0.35);
+    padding-bottom: 0.4rem;
+    margin-bottom: 1em;
+
+}
+
+.social-link {
+    gap: 40px;
+}
+
+
+
+/*@media (max-width: 768px) {
+
+    .intro-text,
+    .about-text,
+    .education-text {
+        font-size: 18px;
+    }
+}*/
